@@ -1,0 +1,151 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fontsfonts/RobotoMono-VariableFont_wght.ttf");
+}
+
+body {
+    margin: 0;
+  display: flex;
+  min-height: 100vh; 
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    background-color: #6d6a6a;
+    color: #403F3D;
+    
+}
+
+.cv {
+    display: flex;
+}
+
+.left-section, .right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 2px solid #b0adad;
+    padding: 10px;
+    max-width: 240px;
+    background: #c0c3c7;
+    box-shadow: 4px 0px 4px 0px rgba(104, 104, 157, 0.25);
+    padding: 20px;
+}
+
+
+.round-image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+  
+.main-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    justify-content: center;
+    max-width: 240px;
+}
+
+.contact-button {
+    display: flex;
+    padding-right: 0px;
+    align-items: center;
+    gap: 5px;
+    align-self: stretch;
+    border-radius: 35px;
+    border: 1px solid #6996DB;  
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(215, 215, 215, 0.25);
+    cursor: pointer;
+    width: 240px;
+    height: 40px;
+}
+
+.text-contact-button {
+    color: #6996DB;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.wrapper-tech-steck {
+    max-width: 240px;
+}
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 160px;
+
+}
+
+.left-title {
+    color:#6996DB;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+
+ul {
+    margin-left: 10px;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.highlight {
+   color: #6996DB;
+}
+
+.right-section {
+    max-width: 355px;
+    
+}
+
+.title-block {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    color:#6996DB;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+}
+
+.right-section {
+    gap: 10px;
+}
+
+hr {
+    color: #100f0f;
+    border-width: 4px;
+}

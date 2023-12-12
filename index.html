@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon_github.png" type="image/x-icon">
+</head>
+<body>
+<section class="cv">
+    <div class="left-section">
+        <div class="round-image-container">
+             <img class="main-image" src="img/photo.jpg" alt="main-photo">
+        </div>
+        <div class="contacts">
+            <a href="https://www.linkedin.com/feed/">
+                <button class="contact-button">
+                   <img src="img/icon_linkedin.png" alt="linkedin">
+                   <span class="text-contact-button">linkedin.com/dzianisprakharchuk</span>
+                </button>
+            </a>
+            <a href="https://github.com/DzianisPrakharchuk">
+                <button class="contact-button">
+                    <img src="img/icon_github.png" alt="github">
+                    <span class="text-contact-button">github.com/dzianisprakharchuk</span>
+                </button>
+            </a>
+            <button class="contact-button">
+                <img src="img/icon_email.png" alt="email">
+                <span class="text-contact-button">denprohorchuk@gmail.com</span>
+            </button>
+            <button class="contact-button">
+                <img src="img/icon_smartphone.png" alt="phone">
+                <span class="text-contact-button">+48 500 264 605</span>
+            </button>
+            <button class="contact-button">
+                <img src="img/icon_location.png" alt="location">
+                <span class="text-contact-button">Białystok, Poland</span>
+            </button>
+        </div>
+        <div class="wrapper-tech-steck">
+            <p class="left-title">Tech-Stack</p>
+            <div class="tech-stack">
+                <div class="column"><img class="tech" src="img/html_icon.png" alt="html"></div>
+                <div class="column"><img class="tech" src="img/css_icon.png" alt="css"></div>
+                <div class="column"><img class="tech" src="img/js_icon.png" alt="js"></div>
+                <div class="column"><img class="tech" src="img/sass_icon.png" alt="sass"></div>
+                <div class="column"><img class="tech" src="img/figma_icon.png" alt="figma"></div>
+                <div class="column"><img class="tech" src="img/git_icon.png" alt="git"></div>
+            </div>
+        </div>
+        <div class="languages">
+            <p class="left-title">Languages</p>
+            <ul>
+                <li>Belarusian (Native)</li>
+                <li>Russian (Native)</li>
+                <li>English(B2)</li>
+                <li>Polish(A1)</li>
+            </ul> 
+        </div>
+    </div>
+    <div class="right-section">
+        <div class="title-block">
+            <h1><span class="highlight">Denis </span>Prochorchuk</h1>
+            <h2>Frontent-Developer</h2>
+            <p class="summary">I am always looking for new challenges and strive for new knowledge. Every day brings a new experience for me.</p>          
+        </div>
+        <article class="about-myself">
+            <h3>About Myself</h3>
+            <p>I worked for a long time as an engineer in the field of mechanical engineering and hydraulics in particular. I decided to change my life and start programming in the JavaScript language. At the moment I am actively studying a programming language, improving my skills in English. I'm looking for a job and I'm open to any proposals and projects. My main goal is to learn something new in this field every day. My best character traits are persistence, patience, the ability to work in a team and the desire to develop.</p>
+            <hr>
+        </article>
+        <article class="code-example">
+            <h3>Code example</h3>
+            <pre>
+<code>
+function mergeArrays(arr1, arr2) {
+    const newArray = [].concat(arr1, arr2);
+    newArray.sort((a, b) => a - b);
+     let result = [];
+     for (let i = 0; i < newArray.length; i++) {
+      if (newArray[i] !== newArray[i + 1]) {
+        result.push(newArray[i]);
+      }
+    }
+    return result;
+}
+</code>
+            </pre>
+            <hr>
+
+        </article>
+        <article class="education">
+            <h3>Education</h3>
+            <p>Belorussian National Technical University,  Mechanical Engineer</p>
+        </article>
+        <hr>
+        <article class="expirience">
+            <h3>Experience</h3>
+            <p>Development, implementation and maintenance of technological processes in mechanical engineering. Management of a division engaged in the production and marketing of engineering products.</p>
+        </article>
+    </div>
+</section>
+</body>
+</html>
